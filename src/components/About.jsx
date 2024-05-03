@@ -3,7 +3,7 @@ import aboutImg from "../assets/about4.jpeg";
 
 const About = () => {
   return (
-    <div className="py-10 text-white bg-[#232325] h-auto" id="about">
+    <div className="py-10 text-[#d43939] bg-[#ffffff] h-auto" id="about">
       <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
         <div>
           <div className="w-[400px] h-full">
@@ -17,9 +17,9 @@ const About = () => {
 
         <div>
           <div className="p-2">
-            <div className="text-gray-300 my-3">
+            <div className="text-[#d43939] my-3">
               <h3 className="text-4xl font-semibold mb-5">
-                About<span className="primart-text">Me</span>
+                About <span className="text-black">Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
                 Lorem ipsum dolor sit amet. 33 adipisci perspiciatis aut libero

@@ -1,14 +1,14 @@
 import React from "react";
-import profilepic from "../assets/profilepic.png";
-import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import profilepic from "../assets/profilepic2.png";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
     <div>
-      <div className="my-7 sm:my-0 max-w-[1200px] h-[80vh] h-auto mx-auto flex flex-col-reverse sm:flex-row justify-center align-center" id="home">
-        <div className="flex-col my-auto mx-auto">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-200">
+      <div className="my-7 sm:my-0 max-w-[1200px] h-[80vh] h-auto mx-auto py-[2em] flex flex-col-reverse sm:flex-row justify-center align-center" id="home">
+        <div className="flex-col m-auto w-[500px] md:pl-0 pl-8">
+          <p className="md:text-4xl sm:text-3xl text-xl font-bold text-gray-200">
             Hi! I am Ka Li
           </p>
           <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold md:py-6">
@@ -22,17 +22,18 @@ const Hero = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
+              className="bg-primary-color"
             />
           </h1>
-          <div className="flex justify-center items-center">
-            <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-500">
+          <div>
+            <p className="md:text-3xl sm:text-2xl text-lg font-bold text-white">
               with 1+ years experience
             </p>
           </div>
           <div className="text-5xl flex justify-start gap-16 my-7 text-white">
-            <AiFillLinkedin />
+            <a href="https://www.linkedin.com/in/limkali" target="blank"><AiFillLinkedin /></a>
+            
             <AiFillGithub />
-            <AiFillInstagram />
           </div>
           <div className="relative inline-flex group my-3">
             <div
