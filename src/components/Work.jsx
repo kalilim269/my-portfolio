@@ -14,7 +14,7 @@ const Work = () => {
               My <span>Projects</span>
             </h2>
             <p className="text-white">
-              These are my latest projects that I have done previously.
+              These are my latest projects :
             </p>
           </div>
         </div>

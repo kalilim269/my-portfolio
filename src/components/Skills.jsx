@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="py-10 text-[#d43939] bg-[#ffffff] h-auto" id="about">
+    <div className="py-10 text-[#d43939] bg-[#ffffff] h-auto" id="skill">
       <div className="flex justify-center pb-5">
         <hr className="border-[#d43939] border-2 w-4/5" />
       </div>
