@@ -6,19 +6,17 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <div>
-      <div className="my-7 sm:my-0 max-w-[1200px] h-[80vh] h-auto mx-auto py-[2em] flex flex-col-reverse sm:flex-row justify-center align-center" id="home">
+      <div
+        className="my-7 sm:my-0 max-w-[1200px] h-[80vh] h-auto mx-auto py-[2em] flex flex-col-reverse sm:flex-row justify-center align-center"
+        id="home"
+      >
         <div className="flex-col m-auto w-[500px] md:pl-0 pl-8">
           <p className="md:text-4xl sm:text-3xl text-xl font-bold text-gray-200">
             Hi! I am Ka Li
           </p>
           <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold md:py-6">
             <TypeAnimation
-              sequence={[
-                "Software Engineer",
-                1000,
-                "Frontend Developer",
-                1000,
-              ]}
+              sequence={["Software Engineer", 1000, "Frontend Developer", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
@@ -31,8 +29,10 @@ const Hero = () => {
             </p>
           </div>
           <div className="text-5xl flex justify-start gap-16 my-7 text-white">
-            <a href="https://www.linkedin.com/in/limkali" target="blank"><AiFillLinkedin /></a>
-            
+            <a href="https://www.linkedin.com/in/limkali/" target="blank">
+              <AiFillLinkedin />
+            </a>
+
             <AiFillGithub />
           </div>
           <div className="relative inline-flex group my-3">
