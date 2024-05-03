@@ -3,7 +3,7 @@ import pandaprofile from "../assets/pandapic.png"
 
 const About = () => {
   return (
-    <div className="py-10 text-[#d43939] bg-[#ffffff] h-auto" id="about">
+    <div className="py-5 text-[#d43939] bg-[#ffffff] h-auto" id="about">
       <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
         <div>
           <div className="w-[400px] h-full">
@@ -57,6 +57,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
