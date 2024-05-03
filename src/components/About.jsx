@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/about4.jpeg";
+import pandaprofile from "../assets/pandapic.png"
 
 const About = () => {
   return (
@@ -8,9 +8,9 @@ const About = () => {
         <div>
           <div className="w-[400px] h-full">
             <img
-              src={aboutImg}
-              alt=""
-              className="object-cover rounded-xl h-[300px] filter grayscale brightness-50"
+              src={pandaprofile}
+              alt="Panda-using-a-laptop"
+              className="object-cover rounded-xl h-[300px]"
             />
           </div>
         </div>
@@ -32,21 +32,21 @@ const About = () => {
           </div>
 
           <div className="flex mt-10 items-center gap-7">
-            <div className="bg-[#333333]/40 p-5 rounded-lg">
+            <div className="bg-primary-color p-5 rounded-lg">
               <h3 className="md:text-4xl text-2xl font-semibold text-white">11
                 <span>+</span>
               </h3>
               <p><span className="md:text-base text-xs">Projects</span></p>
             </div>
 
-            <div className="bg-[#333333]/40 p-5 rounded-lg">
+            <div className="bg-primary-color p-5 rounded-lg">
               <h3 className="md:text-4xl text-2xl font-semibold text-white">11
                 <span>+</span>
               </h3>
               <p><span className="md:text-base text-xs">Experience</span></p>
             </div>
 
-            <div className="bg-[#333333]/40 p-5 rounded-lg">
+            <div className="bg-primary-color p-5 rounded-lg">
               <h3 className="md:text-4xl text-2xl font-semibold text-white">11
                 <span>+</span>
               </h3>

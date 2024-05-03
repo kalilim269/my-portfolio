@@ -1,16 +1,25 @@
-import React from 'react'
-import {FaGithubSquare, FaLinkedin} from 'react-icons/fa'
+import React from "react";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='mt-12 w-max-[800px] border-t border-gray-500 text-center'>
-        <p className='my-5 text-gray-500'>33 Test <br/>Test Blvd., 3303</p>
-        <div className='inline-flex text-gray-500 gap-4 text-3xl'>
-            <FaGithubSquare/>
-            <FaLinkedin/>
-        </div>
+    <div className="mt-12 pb-6 w-max-[800px] border-t border-white text-center">
+      <p className="my-5 text-white inline-flex">
+        <FaLocationDot size={20} className="mr-2"/>
+        Puchong, Selangor
+      </p>
+      <br />
+      <div className="inline-flex text-white gap-4 text-3xl">
+        <a href="https://github.com/kalilim269" target="blank">
+          <FaGithubSquare />
+        </a>
+        <a href="https://www.linkedin.com/in/limkali/" target="blank">
+          <FaLinkedin />
+        </a>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

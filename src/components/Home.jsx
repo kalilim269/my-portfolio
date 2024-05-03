@@ -2,6 +2,7 @@ import React from "react";
 import profilepic from "../assets/profilepic2.png";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
+import { MdEmail } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -25,15 +26,19 @@ const Hero = () => {
           </h1>
           <div>
             <p className="md:text-3xl sm:text-2xl text-lg font-bold text-white">
-              with 1+ years experience
+              with 2+ years experience
             </p>
           </div>
           <div className="text-5xl flex justify-start gap-16 my-7 text-white">
             <a href="https://www.linkedin.com/in/limkali/" target="blank">
               <AiFillLinkedin />
             </a>
-
-            <AiFillGithub />
+            <a href="https://github.com/kalilim269" target="blank">
+              <AiFillGithub />
+            </a>
+            <a href="mailto:limkali99@gmail.com">
+              <MdEmail />
+            </a>
           </div>
           <div className="relative inline-flex group my-3">
             <div
