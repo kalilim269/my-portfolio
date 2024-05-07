@@ -1,4 +1,15 @@
 import React from "react";
+import reactlogo from "../assets/react-logo.png";
+import jslogo from "../assets/js-logo.png";
+import htmllogo from "../assets/html-logo.png";
+import csslogo from "../assets/css-logo.png";
+import pythonlogo from "../assets/python-logo.png";
+import githublogo from "../assets/github-logo.png";
+import gitlogo from "../assets/git-logo.png";
+import figmalogo from "../assets/figma-logo.png";
+import npmlogo from "../assets/npm-logo.png";
+import vscodelogo from "../assets/vscode-logo.png"
+import katalonlogo from "../assets/katalon-logo.png"
 
 const About = () => {
   return (
@@ -15,20 +26,62 @@ const About = () => {
                 My <span className="text-[#d43939]">Skills</span>
               </h3>
 
-              <div className="flex flex-col mx-auto w-[300px] md:w-[1000px]">
+              <div>
                 <div className="flex flex-row py-3 text-lg text-[#d43939]">
-                    <div className="w-1/2">Programming Languages</div>
-                    <div className="w-1/2">row2</div>
-                </div>
-                <div className="flex flex-row py-3 text-lg text-[#d43939]">
-                    <div className="w-1/2">Development Tools</div>
-                    <div className="w-1/2">row2</div>
+                
+                  <div className="grid gap-10 grid-cols-2 md:grid-cols-6">
+                    <div className="flex flex-col items-center">
+                      <img src={reactlogo} alt="react-logo" className="h-[120px]" ></img>
+                      <p className="text-sm p-2 text-black">React JS</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                      <img src={jslogo} alt="javascript-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">Javascript</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                      <img src={htmllogo} alt="html-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">HTML 5</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                    <img src={csslogo} alt="css-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">CSS 3</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                    <img src={pythonlogo} alt="python-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">Python</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                    <img src={gitlogo} alt="git-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">Git</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                    <img src={githublogo} alt="github-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">Github</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                    <img src={figmalogo} alt="figma-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">Figma</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                    <img src={npmlogo} alt="npm-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">Npm</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                    <img src={vscodelogo} alt="vscode-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">VS Code</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                    <img src={katalonlogo} alt="katalon-logo" className="h-[120px]"></img>
+                      <p className="text-sm p-2 text-black">Katalon</p>
+                    </div>
+
+
+                  </div>
                 </div>
               </div>
-              
+         
             </div>
           </div>
-
         </div>
       </div>
     </div>
