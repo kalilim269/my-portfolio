@@ -3,6 +3,7 @@ import profilepic from "../assets/profilepic2.png";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 import { MdEmail } from "react-icons/md";
+import myresume from "../assets/my-resume.pdf"
 
 const Hero = () => {
   return (
@@ -47,14 +48,15 @@ const Hero = () => {
                     group-hover:-inset-1 group-hover:duration-200"
             ></div>
             <a
-              href="/"
-              title="Download CV"
+              href={myresume}
+              target="blank"
+              title="View CV"
               role="button"
               className="w-[190px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg
                     font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl
                     focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
             >
-              Download CV
+              View CV
             </a>
           </div>
         </div>

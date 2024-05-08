@@ -1,5 +1,5 @@
 import React from "react";
-import pandaprofile from "../assets/pandapic.png"
+import pandaprofile from "../assets/pandapic.png";
 
 const About = () => {
   return (
@@ -22,42 +22,50 @@ const About = () => {
                 About <span className="text-black">Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet. 33 adipisci perspiciatis aut libero
-                iusto ut doloremque deserunt ut asperiores dolorem et accusamus
-                incidunt est optio sunt et magnam optio. Qui maiores consequatur
-                aut impedit dolor hic illo rerum ea sunt quaerat cum
-                exercitationem voluptatem non iusto soluta et deserunt pariatur.
+                I'm a dedicated Front End Developer skilled in React.js, HTML5,
+                CSS3, and JavaScript, focused on creating intuitive web
+                interfaces. With a Bachelor's degree in Computer Science from
+                the National University of Malaysia, I prioritize high-quality
+                code and exceptional user experiences. Committed to staying
+                updated with industry trends for project success.
               </p>
             </div>
           </div>
 
-          <div className="flex mt-10 items-center gap-7">
+          {/* <div className="flex mt-10 items-center gap-7">
             <div className="bg-primary-color p-5 rounded-lg">
-              <h3 className="md:text-4xl text-2xl font-semibold text-white">11
+              <h3 className="md:text-4xl text-2xl font-semibold text-white">
+                11
                 <span>+</span>
               </h3>
-              <p><span className="md:text-base text-xs">Projects</span></p>
+              <p>
+                <span className="md:text-base text-xs">Projects</span>
+              </p>
             </div>
 
             <div className="bg-primary-color p-5 rounded-lg">
-              <h3 className="md:text-4xl text-2xl font-semibold text-white">11
+              <h3 className="md:text-4xl text-2xl font-semibold text-white">
+                11
                 <span>+</span>
               </h3>
-              <p><span className="md:text-base text-xs">Experience</span></p>
+              <p>
+                <span className="md:text-base text-xs">Experience</span>
+              </p>
             </div>
 
             <div className="bg-primary-color p-5 rounded-lg">
-              <h3 className="md:text-4xl text-2xl font-semibold text-white">11
+              <h3 className="md:text-4xl text-2xl font-semibold text-white">
+                11
                 <span>+</span>
               </h3>
-              <p><span className="md:text-base text-xs">Education</span></p>
+              <p>
+                <span className="md:text-base text-xs">Education</span>
+              </p>
             </div>
-
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
-    
   );
 };
 
