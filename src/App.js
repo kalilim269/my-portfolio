@@ -1,27 +1,21 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Work from "./components/Work";
-import Skill from "./components/Skills";
-
+import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import LittleLemon from "./pages/LittleLemon";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Skill />
-      <Work/>
-      <Experience/>
-      <Contact/>
-      <Footer/>
-    
-    </div>
-    
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/little-lemon" element={<LittleLemon />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -4,9 +4,11 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 import { MdEmail } from "react-icons/md";
 import myresume from "../assets/my-resume.pdf"
+import Navbar from "./Navbar";
 
-const Hero = () => {
+const Home = () => {
   return (
+
     <div>
       <div
         className="my-7 sm:my-0 max-w-[1200px] h-[80vh] h-auto mx-auto py-[2em] flex flex-col-reverse sm:flex-row justify-center align-center"
@@ -14,7 +16,7 @@ const Hero = () => {
       >
         <div className="flex-col m-auto w-[500px] md:pl-0 pl-8">
           <p className="md:text-4xl sm:text-3xl text-xl font-bold text-gray-200">
-            Hi! I am Bryan
+            Hi! I am Ka Li
           </p>
           <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold md:py-6">
             <TypeAnimation
@@ -72,4 +74,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
