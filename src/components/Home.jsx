@@ -8,8 +8,6 @@ import Navbar from "./Navbar";
 
 const Home = () => {
   return (
-
-    <div>
       <div
         className="my-7 sm:my-0 max-w-[1200px] h-[80vh] h-auto mx-auto py-[2em] flex flex-col-reverse sm:flex-row justify-center align-center"
         id="home"
@@ -70,7 +68,6 @@ const Home = () => {
           />
         </div>
       </div>
-    </div>
   );
 };
 

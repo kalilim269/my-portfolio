@@ -15,7 +15,7 @@ const LittleLemon = () => {
           className="h-[180px] md:h-[300px]"
         ></img>
       </div>
-      <div className="flex flex-row p-[4em] gap-4">
+      <div className="flex flex-row px-[4em] pt-[4em] pb-[1em] gap-4">
         <div className="text-xl">Overview</div>
         <div className=" w-[2px] bg-white relative my-4 mx-auto"></div>
 

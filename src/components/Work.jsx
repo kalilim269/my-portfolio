@@ -22,7 +22,7 @@ const Work = () => {
         </div>
 
         <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:gap-6 xl:gap-8">
-          <a href="/little-lemon" target="blank" className="group h-48 overflow-hidden rounded-lg shadow-lg md:h-80">
+          <a href="/little-lemon" className="group h-48 overflow-hidden rounded-lg shadow-lg md:h-80">
             <img src={LittleLemonWeb} alt="" className="h-full w-full object-cover object-center transition
                                                duration-200 group-hover:scale-110" />
           </a>
