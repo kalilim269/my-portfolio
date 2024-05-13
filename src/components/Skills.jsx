@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import reactlogo from "../assets/react-logo.png";
 import jslogo from "../assets/js-logo.png";
 import htmllogo from "../assets/html-logo.png";
@@ -13,6 +13,14 @@ import katalonlogo from "../assets/katalon-logo.png"
 import javalogo from "../assets/java-icon.png"
 
 const About = () => {
+
+  // useEffect(() => {
+  //   const skillSection = document.getElementById('skill');
+  //   if (skillSection) {
+  //     skillSection.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // }, []);
+
   return (
     <div className="py-10 text-[#d43939] bg-[#ffffff] h-auto" id="skill">
       <div className="flex justify-center pb-5">

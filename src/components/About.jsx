@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import pandaprofile from "../assets/pandapic.png";
+import { useLocation } from "react-router-dom";
 
 const About = () => {
+  // useEffect(() => {
+  //   const aboutSection = document.getElementById("about");
+  //   if (aboutSection) {
+  //     aboutSection.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // }, []);
+
   return (
     <div className="py-5 text-[#d43939] bg-[#ffffff] h-auto" id="about">
       <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">

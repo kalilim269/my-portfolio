@@ -27,7 +27,7 @@ const Work = () => {
                                                duration-200 group-hover:scale-110" />
           </a>
 
-          <a href="/" className="group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-80">
+          <a href="/final-year-project" className="group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-80">
             <img src={proj2} alt="" className="h-full w-full object-cover object-center transition
                                                duration-200 group-hover:scale-110" />
           </a>

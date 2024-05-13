@@ -1,24 +1,26 @@
 import React from "react";
 import LittleLemonWeb from "../assets/little-lemon.png";
 
-
 const LittleLemon = () => {
   return (
     <div>
       <div className="flex items-center">
-        <a href="/" className="text-3xl font-bold primary-color ml-4 px-5 py-6" >My Portfolio</a>
+        <a href="/" className="text-3xl font-bold primary-color ml-4 px-5 py-6">
+          My Portfolio
+        </a>
       </div>
       <div className="bg-[#d43939] h-auto text-white">
         <div className="flex justify-center pb-5">
           <hr className="border-white border-2 w-4/5" />
         </div>
         <div className="flex flex-col justify-center items-center">
-          <div className="pt-3 pb-6 text-2xl text-white">My Little Lemon</div>
-          <div className="w-1/5 pb-6">
-          <hr className="border-white border-2 " />
+          <div className="pt-3 pb-6 text-2xl text-white">
+            AHP-Based Learning Application Interface Feature Selection System
           </div>
-          
-        
+          <div className="w-1/5 pb-6">
+            <hr className="border-white border-2 " />
+          </div>
+
           <img
             src={LittleLemonWeb}
             alt="little-lemon-web"
@@ -31,13 +33,7 @@ const LittleLemon = () => {
 
           <div className=" mb-[20px] text-[#d43939] relative bg-white p-6 rounded-3xl max-w-[400px] md:max-w-[600px] sm:max-x-[600px] mx-auto">
             <p className="text-sm md:text-lg py-1">
-              Little Lemon's online platform is a dynamic website developed as
-              part of Meta's Coursera Front-End Development course. At its core,
-              the site serves as a digital gateway for patrons to explore the
-              offerings of the fictional Little Lemon restaurant. From perusing
-              menus to staying abreast of the latest news and promotions,
-              visitors can seamlessly navigate the site to make reservations and
-              engage with the brand.
+              The system is developed as part of my project for my FYP in university.
             </p>
           </div>
         </div>
@@ -49,7 +45,7 @@ const LittleLemon = () => {
                     group-hover:-inset-1 group-hover:duration-200"
             ></div>
             <a
-              href="https://github.com/kalilim269/little-lemon"
+              href="https://github.com/kalilim269/edu-app-interface-selection"
               target="_blank"
               rel="noopener noreferrer"
               title="View Code"

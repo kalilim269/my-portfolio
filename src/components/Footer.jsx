@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -13,6 +14,9 @@ const Footer = () => {
       <div className="inline-flex text-white gap-4 text-3xl">
         <a href="https://github.com/kalilim269" target="blank">
           <FaGithubSquare />
+        </a>
+        <a href="mailto:limkali99@gmail.com">
+          <MdEmail  />
         </a>
         <a href="https://www.linkedin.com/in/limkali/" target="blank">
           <FaLinkedin />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import profilepic from "../assets/profilepic2.png";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
@@ -7,6 +7,14 @@ import myresume from "../assets/my-resume.pdf"
 import Navbar from "./Navbar";
 
 const Home = () => {
+
+  // useEffect(() => {
+  //   const homeSection = document.getElementById('home');
+  //   if (homeSection) {
+  //     homeSection.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // }, []);
+
   return (
       <div
         className="my-7 sm:my-0 max-w-[1200px] h-[80vh] h-auto mx-auto py-[2em] flex flex-col-reverse sm:flex-row justify-center align-center"
