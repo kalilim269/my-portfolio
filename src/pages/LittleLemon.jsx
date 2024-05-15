@@ -14,7 +14,7 @@ const LittleLemon = () => {
         </div>
         <div className="flex flex-col justify-center items-center">
           <div className="pt-3 pb-6 text-2xl text-white">My Little Lemon</div>
-          <div className="w-1/5 pb-6">
+          <div className="w-2/5 pb-6">
           <hr className="border-white border-2 " />
           </div>
           
@@ -42,7 +42,7 @@ const LittleLemon = () => {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <div className="relative inline-flex group my-3 ">
+          <div className="relative inline-flex group my-3">
             <div
               className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r
                     from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100
@@ -56,9 +56,22 @@ const LittleLemon = () => {
               role="button"
               className="w-[180px] h-[50px] relative inline-flex items-center justify-center px-8 py-4 text-lg
                     font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl
-                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 mx-4"
             >
               View Code
+            </a>
+            
+            <a
+              href="https://kl-little-lemon.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="View Site"
+              role="button"
+              className="w-[180px] h-[50px] relative inline-flex items-center justify-center px-8 py-4 text-lg
+                    font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl
+                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 mx-4"
+            >
+              View Site
             </a>
           </div>
         </div>

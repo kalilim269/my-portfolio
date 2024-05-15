@@ -31,8 +31,8 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div onClick={handleNav} className="block md:hidden /*z-10*/">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+      <div onClick={handleNav} className="pr-5 block md:hidden /*z-10*/">
+        {nav ? <AiOutlineClose className="text-black fixed" size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
       <div

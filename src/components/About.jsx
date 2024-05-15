@@ -14,7 +14,7 @@ const About = () => {
     <div className="py-5 text-[#d43939] bg-[#ffffff] h-auto" id="about">
       <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
         <div>
-          <div className="w-[400px] h-full">
+          <div className="w-[250px] md:w-[400px] h-full">
             <img
               src={pandaprofile}
               alt="Panda-using-a-laptop"

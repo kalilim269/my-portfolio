@@ -1,5 +1,5 @@
 import React from "react";
-import Work from "../components/Work";
+import Project from "../components/Project";
 import Skill from "../components/Skills";
 import Home from "../components/Home";
 import About from "../components/About";
@@ -14,7 +14,7 @@ const HomePage = () => {
       <Home />
       <About />
       <Skill />
-      <Work />
+      <Project />
       <Experience />
       <Contact />
     </div>

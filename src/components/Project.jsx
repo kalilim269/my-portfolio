@@ -1,8 +1,4 @@
 import React from "react";
-import proj1 from "../assets/proj1.png";
-import proj2 from "../assets/proj2.png";
-import proj3 from "../assets/proj3.png";
-import proj4 from "../assets/proj4.png";
 import LittleLemonWeb from "../assets/little-lemon-thumbnail.png";
 import FinalYearProjectWeb from "../assets/fyp.png";
 import PortfolioWeb from "../assets/portfolio-thumbnail.png"
@@ -20,10 +16,10 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:gap-6 xl:gap-8">
+        <div className="grid gap-4 grid-cols-1 sm:grid-cols-3 md:gap-6 xl:gap-8">
           <a
             href="/little-lemon"
-            className="group h-48 overflow-hidden rounded-lg shadow-lg md:h-80"
+            className="group h-48 w-[400px] sm:w-[350px] overflow-hidden rounded-lg shadow-lg md:h-80"
           >
             <img
               src={LittleLemonWeb}
@@ -35,7 +31,7 @@ const Work = () => {
 
           <a
             href="/final-year-project"
-            className="group h-48 overflow-hidden rounded-lg shadow-lg  md:h-80"
+            className="group h-48 w-[400px] sm:w-[350px] overflow-hidden rounded-lg shadow-lg  md:h-80"
           >
             <img
               src={FinalYearProjectWeb}
@@ -47,7 +43,7 @@ const Work = () => {
 
           <a
             href="/my-portfolio"
-            className="group h-48 overflow-hidden rounded-lg shadow-lg  md:h-80"
+            className="group h-48 w-[400px] sm:w-[350px] overflow-hidden rounded-lg shadow-lg  md:h-80"
           >
             <img
               src={PortfolioWeb}

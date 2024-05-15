@@ -17,7 +17,7 @@ const LittleLemon = () => {
           <div className="pt-3 pb-6 text-2xl text-white">
             My Personal Portfolio
           </div>
-          <div className="w-1/5 pb-6">
+          <div className="w-2/5 pb-6">
             <hr className="border-white border-2 " />
           </div>
 
