@@ -22,7 +22,7 @@ const Navbar = () => {
           <a href="#skill">Skill</a>
         </li>
         <li className="p-5">
-          <a href="#work">Work</a>
+          <a href="#project">Project</a>
         </li>
         <li className="p-5">
           <a href="#experience">Experience</a>
@@ -54,7 +54,7 @@ const Navbar = () => {
             <a href="#skill">Skill</a>
           </li>
           <li className="p-2">
-            <a href="#work">Work</a>
+            <a href="#project">Project</a>
           </li>
           <li className="p-2">
             <a href="#experience">Experience</a>
